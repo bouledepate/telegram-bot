@@ -40,7 +40,7 @@ abstract class RedisRepository
 
     protected function prefix(): string
     {
-        return 'apollo:';
+        return '';
     }
 
     /** @throws RedisException */
