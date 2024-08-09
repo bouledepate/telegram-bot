@@ -1,9 +1,7 @@
 <?php
 
-use BDP\Kernel\KernelDefinitions;
-use BDP\Application\TestDefinitions;
-
 return [
-    KernelDefinitions::class,
-    TestDefinitions::class,
+    \BDP\Kernel\KernelDefinitions::class,
+    \BDP\Telegram\TelegramDefinitions::class,
+    \BDP\Application\ApplicationDefinitions::class
 ];

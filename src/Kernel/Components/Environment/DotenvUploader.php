@@ -34,6 +34,12 @@ final readonly class DotenvUploader
             Constant::DATABASE_PASSWORD,
             Constant::DATABASE_PORT,
         )->notEmpty();
+
+        $this->env->required(Constant::REDIS_HOST, Constant::REDIS_USER, Constant::REDIS_PASSWORD,)->notEmpty();
+        $this->env->required(Constant::REDIS_PORT)->isInteger();
+
+        $this->env->required(Constant::TELEGRAM_BOT_TOKEN, Constant::TELEGRAM_HOST)->notEmpty();
+        $this->env->required(Constant::TELEGRAM_CONTEXT_STORAGE_ID)->isInteger();
     }
 
     private function getPaths(): array

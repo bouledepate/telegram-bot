@@ -2,6 +2,7 @@
 
 namespace BDP\Kernel;
 
+use BDP\Kernel\Components\Config\KernelConfig;
 use BDP\Kernel\Components\Container\ContainerBuilder;
 use BDP\Kernel\Components\Environment\DotenvUploader;
 use BDP\Kernel\Components\Exception\ExceptionHandler;

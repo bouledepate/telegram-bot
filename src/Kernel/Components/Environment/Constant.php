@@ -16,4 +16,11 @@ enum Constant
     case DATABASE_USER;
     case DATABASE_PASSWORD;
     case DATABASE_PORT;
+    case REDIS_HOST;
+    case REDIS_PORT;
+    case REDIS_USER;
+    case REDIS_PASSWORD;
+    case TELEGRAM_BOT_TOKEN;
+    case TELEGRAM_HOST;
+    case TELEGRAM_CONTEXT_STORAGE_ID;
 }

@@ -8,4 +8,6 @@ enum ConfigType: int
 {
     case Kernel = 0;
     case Database = 1;
+    case Redis = 3;
+    case Telegram = 4;
 }

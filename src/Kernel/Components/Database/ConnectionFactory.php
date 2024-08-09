@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace BDP\Kernel\Components\Database;
 
+use BDP\Kernel\Components\Config\ConnectionConfig;
 use Doctrine\DBAL\DriverManager;
 
 final readonly class ConnectionFactory

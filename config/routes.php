@@ -1,7 +1,5 @@
 <?php
 
-use BDP\Application\TestRoutesProvider;
-
 return [
-    TestRoutesProvider::class,
+    \BDP\Application\ApplicationRoutesProvider::class
 ];
