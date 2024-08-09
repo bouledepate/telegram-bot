@@ -1,0 +1,30 @@
+{
+  "name": "bouledepate/slim-app-template",
+  "description": "Template for Slim v4 applications.",
+  "type": "project-template",
+  "require": {
+    "php": "^8.3",
+    "slim/slim": "^4.13",
+    "nyholm/psr7": "^1.8",
+    "php-di/php-di": "^7.0",
+    "vlucas/phpdotenv": "^5.6",
+    "guzzlehttp/guzzle": "^7.8",
+    "symfony/string": "^7.1",
+    "ramsey/uuid": "^4.7",
+    "php-ds/php-ds": "^1.5",
+    "doctrine/dbal": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+        "BDP\\Kernel\\": "src/Kernel/",
+        "BDP\\Application\\": "src/Application/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Semyon Shmik",
+      "email": "promtheus815@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable"
+}
