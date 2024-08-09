@@ -1,5 +1,5 @@
 {
-  "name": "bouledepate/slim-app-template",
+  "name": "bouledepate/telegram-bot",
   "description": "Template for Slim v4 applications.",
   "type": "project-template",
   "require": {
